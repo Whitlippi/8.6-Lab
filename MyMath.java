@@ -104,6 +104,7 @@ public class MyMath
 		  perfect.add(perfectNum (i));
 	  }
   }
+  System.out.println("Here are the first "+ (perfect.size()) +" perfect numbers:");
   System.out.println(perfect);
   }
   
