@@ -99,7 +99,7 @@ public class MyMath
    */
   public void giveNum (){
   ArrayList<Long> perfect = new ArrayList<Long>();
-  for (int i = 1; perfect.size()<=6; i++){
+  for (int i = 1; perfect.size()<6; i++){
 	  if (mersenneTrue (i)){
 		  perfect.add(perfectNum (i));
 	  }
